@@ -25,6 +25,9 @@ class ShoppingCart
     total_number_of_products >= @capacity
   end
 
+  def products_by_category(category)
+    
+  end
 
 
 end
