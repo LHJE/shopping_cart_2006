@@ -10,7 +10,7 @@ class ShoppingCart
   end
 
   def add_product(new_product)
-
+    @products << new_product
   end
 
 
