@@ -9,7 +9,7 @@ class Product
   end
 
   def total_price
-
+    @unit_price * @quantity
   end
 
 
