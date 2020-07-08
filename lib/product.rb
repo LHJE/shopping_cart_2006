@@ -20,5 +20,8 @@ class Product
     end
   end
 
+  def hoard
+    @quantity *= 100
+  end
 
 end
