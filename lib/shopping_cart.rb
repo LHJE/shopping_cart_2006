@@ -2,18 +2,15 @@ require './lib/product'
 
 class ShoppingCart
 
-  attr_reader :store_name, :item_amount
-  def initialize(store_name, item_amount)
+  attr_reader :store_name, :capacity, :products
+  def initialize(store_name, capacity)
     @store_name = store_name
-    @item_amount = item_amount
+    @capacity = capacity
     @products = []
   end
 
-  def capacity
-  end
-
-
   def add_product(new_product)
+
   end
 
 
