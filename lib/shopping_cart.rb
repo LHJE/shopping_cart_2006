@@ -13,11 +13,15 @@ class ShoppingCart
     @products << new_product
   end
 
-  # def details
-  #   {name: @name, capacity: @capacity}
-  # end
+  def details
+    {name: @name, capacity: @capacity}
+  end
 
   def total_number_of_products
+    sum = 0
+    products.each do |quantity|
+      sum += quantity
+    end
 
   end
 
@@ -26,7 +30,7 @@ class ShoppingCart
   end
 
   def products_by_category(category)
-    
+
   end
 
 
