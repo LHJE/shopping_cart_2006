@@ -17,12 +17,18 @@ class ShoppingCart
     {name: @name, capacity: @capacity}
   end
 
-  def total_number_of_products
-    sum = 0
-    products.each do |quantity|
-      sum += quantity
-    end
+  # def total_number_of_products
+  #   sum = 0
+  #   products.each do |total|
+  #     sum += @quantity
+  #   end
+  #   sum
+  # end
 
+  def total_number_of_products
+    products.each do |prods|
+      prods.....
+    end
   end
 
   def is_full?
@@ -30,7 +36,7 @@ class ShoppingCart
   end
 
   def products_by_category(category)
-
+    
   end
 
 
